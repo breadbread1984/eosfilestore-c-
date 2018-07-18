@@ -1,5 +1,5 @@
 # eosfilestore c++
-the project modifies the [eosfilestore](https://github.com/grigio/eosfilestore) contract and implement an on chain storage controller. the controller is inspired from the above mentioned project as well.
+the project modifies the [eosfilestore](https://github.com/grigio/eosfilestore) contract and implement an on-chain storage controller. the controller is inspired from the above mentioned project as well.
 
 ### how to build
 
