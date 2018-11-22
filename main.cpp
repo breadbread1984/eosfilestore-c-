@@ -27,7 +27,7 @@ int main(int argc,char ** argv)
 		return EXIT_SUCCESS;
 	}
 	
-	Storage storage("192.168.1.100",8000,"192.168.1.100",6666,"eosfilestore");
+	Storage storage("127.0.0.1",8000,"127.0.0.1",6666,"eosfilestore");
 	
 	if(1 == vm.count("get")) {
 		bool retval = storage.get(txid_filename[0],txid_filename[1]);
@@ -58,3 +58,4 @@ int main(int argc,char ** argv)
 	
 	return EXIT_SUCCESS;
 }
+
